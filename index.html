@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+        <title>Slider</title>
+        <script src="main.js" defer> </script> 
+        <link rel="stylesheet" href="style.css">
+
+        <title>Contacta Slideshow</title>
+    </head>
+    <body>
+        <div class="slideshow-container">
+            <div class="contactaSlides fade">
+                <img src="image1.jpg" style="width:100%">
+                <div class="contactaTxt">The world's leading experts in window intercom, talk-thru, and speech transfer systems</div>
+            </div>
+            <div class="contactaSlides fade">
+                <img src="image2.jpg" style="width:100%">
+                <div class="contactaTxt">A complete range of assistive technologies under one banner</div>
+            </div>
+            <div class="contactaSlides fade">
+                <img src="image3.jpg" style="width:100%">
+                <div class="contactaTxt">Nationwide a-to-z service provider; design, supply, installation and maintenance</div>
+            </div>
+            <a class="prev" onclick="contactaSlidesPlus(-1)">&#10094;</a>
+            <a class="next" onclick="contactaSlidesPlus(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+            <span class="dot" onclick="contactaCurrentSlide(0)"></span>
+            <span class="dot" onclick="contactaCurrentSlide(1)"></span>
+            <span class="dot" onclick="contactaCurrentSlide(2)"></span>
+        </div>  
+    </body>
+</html>
